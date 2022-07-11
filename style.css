@@ -64,10 +64,30 @@ line-height: 54px;
 }
 .half-width {
     width: 48%;
-    margin: 8% auto;
+    margin:15px;
     float: left;
     padding: 0 20px;
 }
+.m-t-8{
+    margin-top:8%;
+}
+.sec-title-area {
+    max-width: 550px;
+    margin: 10% auto;
+}
 .text-center{
     text-align: center;
+}
+.box-pink{
+    background: #FEF4F5;
+border-radius: 10px;
+padding: 15px;
+display: flex;
+flex-direction: row;
+}
+.img-area {
+    padding: 20px;
+}
+.pad-20{
+    padding: 20px;
 }

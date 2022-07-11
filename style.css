@@ -12,6 +12,37 @@ h1,h2,h3,h4,h5,h6{
     font-family: 'Inter', sans-serif;
     font-weight: bold;
 }
+.container{
+    width: 1120px;
+    margin: auto;
+}
+.header-infoarea {
+    max-width: 560px;
+}
+.para-area {
+    margin-bottom: 10%;
+}
 .hero-header{
     background-image: url(images/herohader.jpg);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
+    background-repeat: no-repeat;
+    flex: 0 3 auto;
+    color: #fff;
+}
+.title{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 55px;
+line-height: 75px;
+}
+.btn-main{
+    background: #EF233C;
+    border-radius: 5px;
+    padding: 16px 32px;
+    color: #fff;
+    text-decoration: none;
 }

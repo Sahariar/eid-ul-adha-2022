@@ -75,6 +75,10 @@ line-height: 54px;
     max-width: 550px;
     margin: 10% auto;
 }
+.charity-title-area{
+    margin: 10% auto;
+    max-width: 850px;
+}
 .text-center{
     text-align: center;
 }
@@ -90,4 +94,36 @@ flex-direction: row;
 }
 .pad-20{
     padding: 20px;
+}
+.zkbox{
+    border: solid 1px #D9D9D9;
+    margin: 0px 5px;
+    border-radius: 20px;
+}
+.btn-dn{
+    color: #EF233C;
+    font-weight: bold;
+}
+footer {
+    min-height: 140px;
+    background: #0b0d17;
+    text-align: center;
+    padding: 40px 0;
+}
+
+.fo-title {
+    color: #ff5959;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+    font-family: 'Lobster', cursive;
+}
+
+.copywrite-text {
+    color: #fff;
+}
+
+.cpy-link {
+    text-decoration: none;
+    color: #ff5959;
 }
